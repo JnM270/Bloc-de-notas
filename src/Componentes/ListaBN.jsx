@@ -1,4 +1,4 @@
-import CartasBN from "./CartasBN";
+import CartasBN from "./CartasBN"; 
 import { useContext } from "react";
 import { BlocContext } from "../Contenido/BlocNCont";
 import "../CSS/ListaBN.css"
