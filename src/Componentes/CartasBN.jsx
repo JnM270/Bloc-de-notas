@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext } from "react"; 
 import { BlocContext } from "../Contenido/BlocNCont";
 import "../CSS/CartasBN.css";
 
