@@ -1,0 +1,28 @@
+/* CSS de la lista de notas */
+
+body {
+    background: url('src/fondo3.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    
+}
+
+
+.note_section {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    width: 75vw;
+    gap: 1em; 
+    border-radius: 5px; 
+    padding: 1em;
+    transition: all 0.3s ease-in-out;
+}
+
+.note_empty {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 2.5em;
+    color: #e0e0e0; 
+}
