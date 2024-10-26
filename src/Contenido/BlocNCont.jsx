@@ -1,4 +1,4 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useEffect, useState } from "react"; 
 import { notes as data } from "../Datos/Notas";
 
 export const BlocContext = createContext();
